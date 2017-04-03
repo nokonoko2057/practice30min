@@ -10,8 +10,12 @@ import UIKit
 
 class HomeTableViewController: UITableViewController {
     
-    var classArray = [d170401_C4Wavefront(),
-                      d170402_C4CircleShadow()]
+    var classArray
+        = [
+            d170403_C4PolygonPanGesture(),
+            d170402_C4CircleShadow(),
+            d170401_C4Wavefront(),
+        ]
 
     override func viewDidLoad() {
         super.viewDidLoad()

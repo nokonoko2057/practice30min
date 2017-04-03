@@ -91,5 +91,43 @@ class C4Manager: NSObject{
         }
     }
     
+    func polygonPanGesture(canvas: View){
+        
+        var polygonArray:[Polygon] = []
+        
+        let circle = Circle(center: canvas.center, radius: 4)
+        circle.fillColor = C4Blue
+        canvas.add(circle)
+        
+        canvas.addPanGestureRecognizer{locations, center, scale, velocity, state in
+            
+            if locations.count == 2{
+                print(locations)
+                
+                let points = [locations[0], canvas.center, locations[1]]
+                let polygon = Polygon(points)
+                polygon.fillColor = clear
+                polygon.shadow.color = C4Purple
+                polygon.shadow.color?.alpha = 0.1
+                
+                polygon.strokeColor?.alpha = 0.1
+                polygon.strokeColor = C4Pink
+                
+                canvas.add(polygon)
+                
+                polygonArray.append(polygon)
+            }
+            
+            if polygonArray.count > 200 {
+                
+                polygonArray[0].removeFromSuperview()
+                polygonArray.remove(at: 0)
+        
+            }
+
+    
+        }
+    }
+    
     
 }

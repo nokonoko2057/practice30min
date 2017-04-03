@@ -15,6 +15,7 @@
 		61072E3C1E8FE23B0033200E /* d170401_C4Wavefront.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61072E3B1E8FE23B0033200E /* d170401_C4Wavefront.swift */; };
 		61072E3E1E8FE5000033200E /* C4Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61072E3D1E8FE5000033200E /* C4Manager.swift */; };
 		61122B141E9139AF00C0088A /* d170402_C4CircleShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61122B131E9139AF00C0088A /* d170402_C4CircleShadow.swift */; };
+		611387921E928D9000F15E5A /* d170403_C4PolygonPanGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611387911E928D9000F15E5A /* d170403_C4PolygonPanGesture.swift */; };
 		9433F28F7E92F9F503D2A97D /* Pods_SwiftPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E36A71212AAB9D0CE2142A0 /* Pods_SwiftPractice.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		61072E3B1E8FE23B0033200E /* d170401_C4Wavefront.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170401_C4Wavefront.swift; sourceTree = "<group>"; };
 		61072E3D1E8FE5000033200E /* C4Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4Manager.swift; sourceTree = "<group>"; };
 		61122B131E9139AF00C0088A /* d170402_C4CircleShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170402_C4CircleShadow.swift; sourceTree = "<group>"; };
+		611387911E928D9000F15E5A /* d170403_C4PolygonPanGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170403_C4PolygonPanGesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				61072E391E8FDE3F0033200E /* HomeTableViewController.swift */,
 				61072E3B1E8FE23B0033200E /* d170401_C4Wavefront.swift */,
 				61122B131E9139AF00C0088A /* d170402_C4CircleShadow.swift */,
+				611387911E928D9000F15E5A /* d170403_C4PolygonPanGesture.swift */,
 				61072E3D1E8FE5000033200E /* C4Manager.swift */,
 				61072E2B1E8FDDF70033200E /* Main.storyboard */,
 				61072E2E1E8FDDF70033200E /* Assets.xcassets */,
@@ -132,7 +135,7 @@
 				TargetAttributes = {
 					61072E231E8FDDF70033200E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = L658J8KRQ5;
+						DevelopmentTeam = NWMCRKZDG5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -223,6 +226,7 @@
 			files = (
 				61072E3E1E8FE5000033200E /* C4Manager.swift in Sources */,
 				61072E3A1E8FDE3F0033200E /* HomeTableViewController.swift in Sources */,
+				611387921E928D9000F15E5A /* d170403_C4PolygonPanGesture.swift in Sources */,
 				61072E281E8FDDF70033200E /* AppDelegate.swift in Sources */,
 				61122B141E9139AF00C0088A /* d170402_C4CircleShadow.swift in Sources */,
 				61072E3C1E8FE23B0033200E /* d170401_C4Wavefront.swift in Sources */,
@@ -347,7 +351,7 @@
 			baseConfigurationReference = 0F0A7F2F8BD387987CB1F966 /* Pods-SwiftPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = L658J8KRQ5;
+				DEVELOPMENT_TEAM = NWMCRKZDG5;
 				INFOPLIST_FILE = SwiftPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nokonoko.SwiftPractice;
@@ -361,7 +365,7 @@
 			baseConfigurationReference = 5332E053413CFBC3BC137222 /* Pods-SwiftPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = L658J8KRQ5;
+				DEVELOPMENT_TEAM = NWMCRKZDG5;
 				INFOPLIST_FILE = SwiftPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nokonoko.SwiftPractice;
