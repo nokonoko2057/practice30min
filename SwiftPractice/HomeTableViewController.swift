@@ -12,6 +12,7 @@ class HomeTableViewController: UITableViewController {
     
     var classArray
         = [
+            d170404_NavigationController_SearchBar(),
             d170403_C4PolygonPanGesture(),
             d170402_C4CircleShadow(),
             d170401_C4Wavefront(),
@@ -20,11 +21,6 @@ class HomeTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,12 +47,21 @@ class HomeTableViewController: UITableViewController {
         
         cell.textLabel!.text = String(describing: type(of: classArray[indexPath.row]))
 
-
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        navigationController?.pushViewController(classArray[indexPath.row] as! UIViewController, animated: true)
+        
+        let showVC:UIViewController!
+        
+//        if String(describing: type(of:classArray[indexPath.row])) == "d170404_C4AnglePanGesture" {
+//            let storyboard = UIStoryboard(name: "d170404_searchBar", bundle: nil)
+//            showVC = storyboard.instantiateViewController(withIdentifier: "searchBarTest")
+//        }else{
+            showVC = classArray[indexPath.row] as! UIViewController
+//        }
+        
+        navigationController?.pushViewController(showVC, animated: true)
 
     }
     

@@ -12,14 +12,6 @@ import C4
 class C4Manager: NSObject{
     
     
-    
-    var number = 28
-    var count = 0.0
-    
-    
-   
-    
-    
 //    func c4Setup(canvas:UIView){
 //        
 //        canvas.backgroundColor = C4Grey
@@ -107,10 +99,6 @@ class C4Manager: NSObject{
                 let points = [locations[0], canvas.center, locations[1]]
                 let polygon = Polygon(points)
                 polygon.fillColor = clear
-                polygon.shadow.color = C4Purple
-                polygon.shadow.color?.alpha = 0.1
-                
-                polygon.strokeColor?.alpha = 0.1
                 polygon.strokeColor = C4Pink
                 
                 canvas.add(polygon)
@@ -124,10 +112,41 @@ class C4Manager: NSObject{
                 polygonArray.remove(at: 0)
         
             }
-
-    
         }
     }
+    
+//    func anglePanGesture(canvas: View){
+//        
+//        var oldPolygon:Polygon?
+//        
+//        let circle = Circle(center: canvas.center, radius: 4)
+//        circle.fillColor = C4Blue
+//        canvas.add(circle)
+//        
+//        canvas.addPanGestureRecognizer{locations, center, scale, velocity, state in
+//            
+//            
+//            if locations.count == 2{
+//                print(locations)
+//                
+//                if oldPolygon != nil {
+//                    oldPolygon?.removeFromSuperview()
+//                }
+//                
+//                let points = [locations[0], canvas.center, locations[1]]
+//                let polygon = Polygon(points)
+//                polygon.fillColor = clear
+//                polygon.strokeColor = C4Pink
+//                
+//                canvas.add(polygon)
+//                
+//                oldPolygon = polygon
+//   
+//            }
+//            
+//        }
+//    }
+
     
     
 }
