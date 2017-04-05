@@ -8,7 +8,7 @@
 
 import UIKit
 
-class d170404_NavigationController_SearchBar: UIViewController, UISearchBarDelegate {
+class d170404_SearchBarInNavigationController: UIViewController, UISearchBarDelegate {
     
     var searchBar: UISearchBar!
     
@@ -24,8 +24,7 @@ class d170404_NavigationController_SearchBar: UIViewController, UISearchBarDeleg
     func setupSearchBar() {
         
         if let navigationBarFrame = navigationController?.navigationBar.bounds {
-            
-            let searchBar: UISearchBar = UISearchBar(frame: navigationBarFrame)
+            var searchBar: UISearchBar = UISearchBar(frame: navigationBarFrame)
             searchBar.delegate = self
             searchBar.placeholder = "TEST"
             searchBar.showsCancelButton = true

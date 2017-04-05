@@ -16,9 +16,10 @@
 		61072E3E1E8FE5000033200E /* C4Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61072E3D1E8FE5000033200E /* C4Manager.swift */; };
 		61122B141E9139AF00C0088A /* d170402_C4CircleShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61122B131E9139AF00C0088A /* d170402_C4CircleShadow.swift */; };
 		611387921E928D9000F15E5A /* d170403_C4PolygonPanGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611387911E928D9000F15E5A /* d170403_C4PolygonPanGesture.swift */; };
-		611387941E92A74500F15E5A /* d170404_C4AnglePanGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611387931E92A74500F15E5A /* d170404_C4AnglePanGesture.swift */; };
+		611387941E92A74500F15E5A /* d170404_SearchBarInNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611387931E92A74500F15E5A /* d170404_SearchBarInNavigationController.swift */; };
 		611387961E9328A700F15E5A /* d170404_searchBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611387951E9328A700F15E5A /* d170404_searchBar.storyboard */; };
 		6113879A1E935E9100F15E5A /* UIKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611387991E935E9100F15E5A /* UIKitManager.swift */; };
+		61EB6AE01E94F9CB00611133 /* d170405_TwitterTimeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EB6ADF1E94F9CB00611133 /* d170405_TwitterTimeLine.swift */; };
 		9433F28F7E92F9F503D2A97D /* Pods_SwiftPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E36A71212AAB9D0CE2142A0 /* Pods_SwiftPractice.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +38,10 @@
 		61072E3D1E8FE5000033200E /* C4Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4Manager.swift; sourceTree = "<group>"; };
 		61122B131E9139AF00C0088A /* d170402_C4CircleShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170402_C4CircleShadow.swift; sourceTree = "<group>"; };
 		611387911E928D9000F15E5A /* d170403_C4PolygonPanGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170403_C4PolygonPanGesture.swift; sourceTree = "<group>"; };
-		611387931E92A74500F15E5A /* d170404_C4AnglePanGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170404_C4AnglePanGesture.swift; sourceTree = "<group>"; };
+		611387931E92A74500F15E5A /* d170404_SearchBarInNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170404_SearchBarInNavigationController.swift; sourceTree = "<group>"; };
 		611387951E9328A700F15E5A /* d170404_searchBar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = d170404_searchBar.storyboard; sourceTree = "<group>"; };
 		611387991E935E9100F15E5A /* UIKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitManager.swift; sourceTree = "<group>"; };
+		61EB6ADF1E94F9CB00611133 /* d170405_TwitterTimeLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170405_TwitterTimeLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,8 @@
 		611387981E932B3400F15E5A /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				611387931E92A74500F15E5A /* d170404_C4AnglePanGesture.swift */,
+				611387931E92A74500F15E5A /* d170404_SearchBarInNavigationController.swift */,
+				61EB6ADF1E94F9CB00611133 /* d170405_TwitterTimeLine.swift */,
 				611387991E935E9100F15E5A /* UIKitManager.swift */,
 				611387951E9328A700F15E5A /* d170404_searchBar.storyboard */,
 			);
@@ -257,7 +260,8 @@
 				61122B141E9139AF00C0088A /* d170402_C4CircleShadow.swift in Sources */,
 				61072E3C1E8FE23B0033200E /* d170401_C4Wavefront.swift in Sources */,
 				6113879A1E935E9100F15E5A /* UIKitManager.swift in Sources */,
-				611387941E92A74500F15E5A /* d170404_C4AnglePanGesture.swift in Sources */,
+				61EB6AE01E94F9CB00611133 /* d170405_TwitterTimeLine.swift in Sources */,
+				611387941E92A74500F15E5A /* d170404_SearchBarInNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
