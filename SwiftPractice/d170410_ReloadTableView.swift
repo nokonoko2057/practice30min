@@ -1,55 +1,37 @@
 //
-//  TableViewController.swift
+//  d170410_ReloadTableView.swift
 //  SwiftPractice
 //
-//  Created by yuki takei on 2017/04/05.
+//  Created by yuki takei on 2017/04/10.
 //  Copyright © 2017年 Yuki Takei. All rights reserved.
 //
 
-/*
- 参考
- - Xcode 8.2, Swift 3.0でTwitterの認証を通してタイムラインを取得するまで
-    http://qiita.com/keisei_1092/items/32a96dbdb6bc394b0e8e
- 
- 
- MEMO
- - @escapingとは
- - ACAccount -> 登録アカウント？
- - twitterは標準搭載？
- - guard の復習
- - alert -> UIAlertController .actionSheet
-            addActionで項目追加
- - error: 初期値はnil エラーが起きると !nil
-    -> if error != nil { "error!"} else { "not error" }
- - try JSONSerialization.jsonObject 
- 
-*/
 
 import UIKit
 import Social
 import Accounts
 
-struct Tweet {
-    let text: String
-    let createdAt: String
-    let user: User
+//struct Tweet {
+//    let text: String
+//    let createdAt: String
+//    let user: User
+//    
+//    var dump: String {
+//        get {
+//            return "\(text) by @\(user.screenName)"
+//        }
+//    }
+//}
+//
+//struct User {
+//    let name: String
+//    let screenName: String
+//    let profileImageURLHTTPS: String
+//}
+//
+
+class d170410_ReloadTableView: UITableViewController {
     
-    var dump: String {
-        get {
-            return "\(text) by @\(user.screenName)"
-        }
-    }
-}
-
-struct User {
-    let name: String
-    let screenName: String
-    let profileImageURLHTTPS: String
-}
-
-
-class d170405_TwitterTimeLine: UITableViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         tableViewSetup()
@@ -57,8 +39,23 @@ class d170405_TwitterTimeLine: UITableViewController {
         getAccounts { (accounts: [ACAccount]) -> Void in
             self.showAccountSelectSheet(accounts: accounts)
         }
+        
+        var refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: Selector("pullReload"), for: UIControlEvents.valueChanged)
+        self.refreshControl = refreshControl
     }
-
+    
+    //
+    func pullReload() {
+        if tweets.count != 0{
+            tweets = []
+        }
+        tableView.reloadData()
+        
+        getTimeline()
+//        self.tableView.reloadData()
+        self.refreshControl?.endRefreshing()
+    }
     
     // MARK: - Twitter
     var accountStore: ACAccountStore = ACAccountStore()
@@ -154,7 +151,7 @@ class d170405_TwitterTimeLine: UITableViewController {
             }
         }
     }
-
+    
     
     // MARK: - TableView
     
@@ -164,67 +161,67 @@ class d170405_TwitterTimeLine: UITableViewController {
     
     
     // MARK: Table view data source
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         print(tweets)
         return tweets.count
     }
-
+    
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cells", for: indexPath)
-
+        
         // Configure the cell...
         cell.textLabel?.text = tweets[indexPath.row].text
-
+        
         return cell
     }
     
-
+    
     /*
-    // Override  to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
+     // Override  to support conditional editing of the table view.
+     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+     // Return false if you do not want the specified item to be editable.
+     return true
+     }
+     */
+    
     /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
+     // Override to support editing the table view.
+     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+     if editingStyle == .delete {
+     // Delete the row from the data source
+     tableView.deleteRows(at: [indexPath], with: .fade)
+     } else if editingStyle == .insert {
+     // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+     }
+     }
+     */
+    
     /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
+     // Override to support rearranging the table view.
+     override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
+     
+     }
+     */
+    
     /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
+     // Override to support conditional rearranging of the table view.
+     override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
+     // Return false if you do not want the item to be re-orderable.
+     return true
+     }
+     */
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

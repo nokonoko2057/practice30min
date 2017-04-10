@@ -12,6 +12,8 @@ class HomeTableViewController: UITableViewController {
     
     var classArray
         = [
+            d170410_ReloadTableView(),
+            d170406_MediaPlayer(),
             d170405_TwitterTimeLine(),
             d170404_SearchBarInNavigationController(),
             d170403_C4PolygonPanGesture(),
