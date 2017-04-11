@@ -12,6 +12,7 @@ class HomeTableViewController: UITableViewController {
     
     var classArray
         = [
+            d170411_MakeUIImage(),
             d170410_ReloadTableView(),
             d170406_MediaPlayer(),
             d170405_TwitterTimeLine(),
