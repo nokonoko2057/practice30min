@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>撮影のため</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>参照のため</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>参照のため</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
