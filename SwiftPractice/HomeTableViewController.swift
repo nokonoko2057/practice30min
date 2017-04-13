@@ -12,6 +12,7 @@ class HomeTableViewController: UITableViewController {
     
     var classArray
         = [
+            d170413_BlurEffect(),
             d170412_CameraCapture(),
             d170411_MakeUIImage(),
             d170410_ReloadTableView(),
