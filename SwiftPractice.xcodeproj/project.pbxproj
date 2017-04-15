@@ -23,6 +23,7 @@
 		615E2D5B1E9CF531002DF456 /* d170411_MakeUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615E2D5A1E9CF531002DF456 /* d170411_MakeUIImage.swift */; };
 		615E2D5D1E9DF86E002DF456 /* d170412_CameraCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615E2D5C1E9DF86E002DF456 /* d170412_CameraCapture.swift */; };
 		615E2D5F1E9FC21E002DF456 /* d170413_BlurEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615E2D5E1E9FC21E002DF456 /* d170413_BlurEffect.swift */; };
+		615E2D611EA25358002DF456 /* d170415_TableViewRowHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615E2D601EA25358002DF456 /* d170415_TableViewRowHeight.swift */; };
 		61EB6AE01E94F9CB00611133 /* d170405_TwitterTimeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EB6ADF1E94F9CB00611133 /* d170405_TwitterTimeLine.swift */; };
 		9433F28F7E92F9F503D2A97D /* Pods_SwiftPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E36A71212AAB9D0CE2142A0 /* Pods_SwiftPractice.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		615E2D5A1E9CF531002DF456 /* d170411_MakeUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170411_MakeUIImage.swift; sourceTree = "<group>"; };
 		615E2D5C1E9DF86E002DF456 /* d170412_CameraCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170412_CameraCapture.swift; sourceTree = "<group>"; };
 		615E2D5E1E9FC21E002DF456 /* d170413_BlurEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170413_BlurEffect.swift; sourceTree = "<group>"; };
+		615E2D601EA25358002DF456 /* d170415_TableViewRowHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170415_TableViewRowHeight.swift; sourceTree = "<group>"; };
 		61EB6ADF1E94F9CB00611133 /* d170405_TwitterTimeLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170405_TwitterTimeLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 				615E2D5A1E9CF531002DF456 /* d170411_MakeUIImage.swift */,
 				615E2D5C1E9DF86E002DF456 /* d170412_CameraCapture.swift */,
 				615E2D5E1E9FC21E002DF456 /* d170413_BlurEffect.swift */,
+				615E2D601EA25358002DF456 /* d170415_TableViewRowHeight.swift */,
 				611387991E935E9100F15E5A /* UIKitManager.swift */,
 			);
 			name = UIKit;
@@ -274,6 +277,7 @@
 				61072E3C1E8FE23B0033200E /* d170401_C4Wavefront.swift in Sources */,
 				615E2D5F1E9FC21E002DF456 /* d170413_BlurEffect.swift in Sources */,
 				61278D9E1E9677C900418280 /* d170406_MediaPlayer.swift in Sources */,
+				615E2D611EA25358002DF456 /* d170415_TableViewRowHeight.swift in Sources */,
 				615E2D5B1E9CF531002DF456 /* d170411_MakeUIImage.swift in Sources */,
 				6113879A1E935E9100F15E5A /* UIKitManager.swift in Sources */,
 				61EB6AE01E94F9CB00611133 /* d170405_TwitterTimeLine.swift in Sources */,
