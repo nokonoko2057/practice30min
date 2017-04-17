@@ -20,6 +20,7 @@
 		611387941E92A74500F15E5A /* d170404_SearchBarInNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611387931E92A74500F15E5A /* d170404_SearchBarInNavigationController.swift */; };
 		6113879A1E935E9100F15E5A /* UIKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611387991E935E9100F15E5A /* UIKitManager.swift */; };
 		61278D9E1E9677C900418280 /* d170406_MediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61278D9D1E9677C900418280 /* d170406_MediaPlayer.swift */; };
+		612D80741EA4A51300E1BFBB /* d170417_CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612D80731EA4A51300E1BFBB /* d170417_CVPixelBuffer.swift */; };
 		615E2D5B1E9CF531002DF456 /* d170411_MakeUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615E2D5A1E9CF531002DF456 /* d170411_MakeUIImage.swift */; };
 		615E2D5D1E9DF86E002DF456 /* d170412_CameraCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615E2D5C1E9DF86E002DF456 /* d170412_CameraCapture.swift */; };
 		615E2D5F1E9FC21E002DF456 /* d170413_BlurEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615E2D5E1E9FC21E002DF456 /* d170413_BlurEffect.swift */; };
@@ -47,6 +48,7 @@
 		611387931E92A74500F15E5A /* d170404_SearchBarInNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170404_SearchBarInNavigationController.swift; sourceTree = "<group>"; };
 		611387991E935E9100F15E5A /* UIKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitManager.swift; sourceTree = "<group>"; };
 		61278D9D1E9677C900418280 /* d170406_MediaPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170406_MediaPlayer.swift; sourceTree = "<group>"; };
+		612D80731EA4A51300E1BFBB /* d170417_CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170417_CVPixelBuffer.swift; sourceTree = "<group>"; };
 		615E2D5A1E9CF531002DF456 /* d170411_MakeUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170411_MakeUIImage.swift; sourceTree = "<group>"; };
 		615E2D5C1E9DF86E002DF456 /* d170412_CameraCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170412_CameraCapture.swift; sourceTree = "<group>"; };
 		615E2D5E1E9FC21E002DF456 /* d170413_BlurEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170413_BlurEffect.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				615E2D5C1E9DF86E002DF456 /* d170412_CameraCapture.swift */,
 				615E2D5E1E9FC21E002DF456 /* d170413_BlurEffect.swift */,
 				615E2D601EA25358002DF456 /* d170415_TableViewRowHeight.swift */,
+				612D80731EA4A51300E1BFBB /* d170417_CVPixelBuffer.swift */,
 				611387991E935E9100F15E5A /* UIKitManager.swift */,
 			);
 			name = UIKit;
@@ -269,6 +272,7 @@
 			files = (
 				61072E3E1E8FE5000033200E /* C4Manager.swift in Sources */,
 				61072E3A1E8FDE3F0033200E /* HomeTableViewController.swift in Sources */,
+				612D80741EA4A51300E1BFBB /* d170417_CVPixelBuffer.swift in Sources */,
 				615E2D5D1E9DF86E002DF456 /* d170412_CameraCapture.swift in Sources */,
 				611387921E928D9000F15E5A /* d170403_C4PolygonPanGesture.swift in Sources */,
 				61072E281E8FDDF70033200E /* AppDelegate.swift in Sources */,
