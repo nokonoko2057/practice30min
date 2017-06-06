@@ -7,5 +7,5 @@ target 'SwiftPractice' do
 
   # Pods for SwiftPractice
 	pod ‘C4’
-
+	pod 'ChameleonFramework'
 end

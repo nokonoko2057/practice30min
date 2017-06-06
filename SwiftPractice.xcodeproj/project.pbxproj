@@ -25,6 +25,7 @@
 		615E2D5D1E9DF86E002DF456 /* d170412_CameraCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615E2D5C1E9DF86E002DF456 /* d170412_CameraCapture.swift */; };
 		615E2D5F1E9FC21E002DF456 /* d170413_BlurEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615E2D5E1E9FC21E002DF456 /* d170413_BlurEffect.swift */; };
 		615E2D611EA25358002DF456 /* d170415_TableViewRowHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615E2D601EA25358002DF456 /* d170415_TableViewRowHeight.swift */; };
+		619FC17F1EE660450061BE03 /* d170606_ChameleonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619FC17E1EE660450061BE03 /* d170606_ChameleonTest.swift */; };
 		61D097081ECB4AA600477904 /* d170516_UserNotificationsCalender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D097071ECB4AA600477904 /* d170516_UserNotificationsCalender.swift */; };
 		61EB6AE01E94F9CB00611133 /* d170405_TwitterTimeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EB6ADF1E94F9CB00611133 /* d170405_TwitterTimeLine.swift */; };
 		61F2F4891EAF3CD60004E0C9 /* d170425_AttributedSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2F4881EAF3CD60004E0C9 /* d170425_AttributedSpeech.swift */; };
@@ -55,6 +56,7 @@
 		615E2D5C1E9DF86E002DF456 /* d170412_CameraCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170412_CameraCapture.swift; sourceTree = "<group>"; };
 		615E2D5E1E9FC21E002DF456 /* d170413_BlurEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170413_BlurEffect.swift; sourceTree = "<group>"; };
 		615E2D601EA25358002DF456 /* d170415_TableViewRowHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170415_TableViewRowHeight.swift; sourceTree = "<group>"; };
+		619FC17E1EE660450061BE03 /* d170606_ChameleonTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170606_ChameleonTest.swift; sourceTree = "<group>"; };
 		61D097071ECB4AA600477904 /* d170516_UserNotificationsCalender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170516_UserNotificationsCalender.swift; sourceTree = "<group>"; };
 		61EB6ADF1E94F9CB00611133 /* d170405_TwitterTimeLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170405_TwitterTimeLine.swift; sourceTree = "<group>"; };
 		61F2F4881EAF3CD60004E0C9 /* d170425_AttributedSpeech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d170425_AttributedSpeech.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				612D80731EA4A51300E1BFBB /* d170417_CVPixelBuffer.swift */,
 				61F2F4881EAF3CD60004E0C9 /* d170425_AttributedSpeech.swift */,
 				61D097071ECB4AA600477904 /* d170516_UserNotificationsCalender.swift */,
+				619FC17E1EE660450061BE03 /* d170606_ChameleonTest.swift */,
 				611387991E935E9100F15E5A /* UIKitManager.swift */,
 			);
 			name = UIKit;
@@ -266,7 +269,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61072E3E1E8FE5000033200E /* C4Manager.swift in Sources */,
+				619FC17F1EE660450061BE03 /* d170606_ChameleonTest.swift in Sources */,
 				61072E3A1E8FDE3F0033200E /* HomeTableViewController.swift in Sources */,
 				612D80741EA4A51300E1BFBB /* d170417_CVPixelBuffer.swift in Sources */,
 				615E2D5D1E9DF86E002DF456 /* d170412_CameraCapture.swift in Sources */,
