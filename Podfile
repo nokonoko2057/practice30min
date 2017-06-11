@@ -8,4 +8,6 @@ target 'SwiftPractice' do
   # Pods for SwiftPractice
 	pod ‘C4’
 	pod 'ChameleonFramework'
+	pod 'lottie-ios'
+
 end
