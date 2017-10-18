@@ -83,10 +83,10 @@
 		61072E1B1E8FDDF70033200E = {
 			isa = PBXGroup;
 			children = (
-				61072E261E8FDDF70033200E /* SwiftPractice */,
-				61072E251E8FDDF70033200E /* Products */,
-				D8F961F0DEF2690F7C6B7D61 /* Pods */,
 				E9AC861D70946EBC3AE3F3F2 /* Frameworks */,
+				D8F961F0DEF2690F7C6B7D61 /* Pods */,
+				61072E251E8FDDF70033200E /* Products */,
+				61072E261E8FDDF70033200E /* SwiftPractice */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +101,15 @@
 		61072E261E8FDDF70033200E /* SwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
-				61072E271E8FDDF70033200E /* AppDelegate.swift */,
-				61072E391E8FDE3F0033200E /* HomeTableViewController.swift */,
-				61072E2B1E8FDDF70033200E /* Main.storyboard */,
-				61A366221EED07DC0056AC96 /* Resource */,
 				611387971E932B0300F15E5A /* Library */,
+				61A366221EED07DC0056AC96 /* Resource */,
 				611387981E932B3400F15E5A /* UIKit */,
+				61072E271E8FDDF70033200E /* AppDelegate.swift */,
 				61072E2E1E8FDDF70033200E /* Assets.xcassets */,
-				61072E301E8FDDF70033200E /* LaunchScreen.storyboard */,
+				61072E391E8FDE3F0033200E /* HomeTableViewController.swift */,
 				61072E331E8FDDF70033200E /* Info.plist */,
+				61072E301E8FDDF70033200E /* LaunchScreen.storyboard */,
+				61072E2B1E8FDDF70033200E /* Main.storyboard */,
 			);
 			path = SwiftPractice;
 			sourceTree = "<group>";
@@ -125,11 +125,13 @@
 				61A366201EED06CE0056AC96 /* d170611_LottieTest.swift */,
 			);
 			name = Library;
+			path = Library;
 			sourceTree = "<group>";
 		};
 		611387981E932B3400F15E5A /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				611387991E935E9100F15E5A /* UIKitManager.swift */,
 				611387931E92A74500F15E5A /* d170404_SearchBarInNavigationController.swift */,
 				61EB6ADF1E94F9CB00611133 /* d170405_TwitterTimeLine.swift */,
 				61278D9D1E9677C900418280 /* d170406_MediaPlayer.swift */,
@@ -142,9 +144,9 @@
 				61F2F4881EAF3CD60004E0C9 /* d170425_AttributedSpeech.swift */,
 				61D097071ECB4AA600477904 /* d170516_UserNotificationsCalender.swift */,
 				6117C8831EF17BD6008A5E55 /* d170614_AnimationTableView.swift */,
-				611387991E935E9100F15E5A /* UIKitManager.swift */,
 			);
 			name = UIKit;
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		61A366221EED07DC0056AC96 /* Resource */ = {
@@ -153,6 +155,7 @@
 				61A366231EED08700056AC96 /* LottieLogo1.json */,
 			);
 			name = Resource;
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		D8F961F0DEF2690F7C6B7D61 /* Pods */ = {
@@ -330,6 +333,7 @@
 				61072E2C1E8FDDF70033200E /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		61072E301E8FDDF70033200E /* LaunchScreen.storyboard */ = {
@@ -338,6 +342,7 @@
 				61072E311E8FDDF70033200E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
