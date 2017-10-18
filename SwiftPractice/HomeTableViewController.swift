@@ -12,6 +12,7 @@ class HomeTableViewController: UITableViewController {
     
     var classArray
         = [
+            d171018_FSCalendar(),
             d170614_AnimationTableView(),
             d170611_LottieTest(),
             d170606_ChameleonTest(),

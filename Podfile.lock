@@ -3,18 +3,21 @@ PODS:
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
+  - FSCalendar (2.7.9)
   - lottie-ios (1.5.2)
 
 DEPENDENCIES:
   - C4
   - ChameleonFramework
+  - FSCalendar
   - lottie-ios
 
 SPEC CHECKSUMS:
   C4: 50c631f37096fd84498b462dce124552ad958d88
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
   lottie-ios: 255a0e95973a5c4424e809d7a5c19f7384c73e84
 
-PODFILE CHECKSUM: fb8d6787a5c89b481391dba21a7f101e14628b2b
+PODFILE CHECKSUM: e0c39844fc44bbf26e42ac79506e03fabe2efd5e
 
 COCOAPODS: 1.2.1
