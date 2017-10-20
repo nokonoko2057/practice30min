@@ -21,7 +21,7 @@ cocoaControlsから見る
 
 
 - [alexaubry/BulletinBoard: Generate and Display Bottom Card Interfaces on iOS](https://github.com/alexaubry/BulletinBoard)
-- [philackm/ScrollableGraphView: An adaptive scrollable graph view for iOS to visualise simple discrete datasets. Written in Swift.](https://github.com/philackm/ScrollableGraphView)
+
 - [danielgindi/Charts: Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart.](https://github.com/danielgindi/Charts)
 - [CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout: UICollectionView replacement of UITableView. Do even more like Parallax Header, Sticky Section Header. Made for iOS 7.](https://github.com/CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout)
 - [IvanVorobei/RequestPermission: simple permission request with beautiful UI](https://github.com/IvanVorobei/RequestPermission)
@@ -32,6 +32,9 @@ cocoaControlsから見る
 - [Instagram/IGListKit: A data-driven UICollectionView framework for building fast and flexible lists.](https://github.com/Instagram/IGListKit)
 - [dzenbot/DZNEmptyDataSet: A drop-in UITableView/UICollectionView superclass category for showing empty datasets whenever the view has no content to display](https://github.com/dzenbot/DZNEmptyDataSet)
 - [mamaral/Onboard: An iOS framework to easily create a beautiful and engaging onboarding experience with only a few lines of code.](https://github.com/mamaral/Onboard)
+- [lukapool/LKAWaveCircleProgressBar: 一款带有双波浪动画的圆形进度指示器](https://github.com/lukapool/LKAWaveCircleProgressBar)
+- [lkzhao/Hero: Elegant transition library for iOS & tvOS](https://github.com/lkzhao/Hero)
+
 
 
 

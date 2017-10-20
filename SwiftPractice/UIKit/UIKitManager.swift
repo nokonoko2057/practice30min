@@ -29,3 +29,7 @@ class UIKitManager: NSObject {
 //    }
 
 }
+
+extension UIColor {
+    
+}

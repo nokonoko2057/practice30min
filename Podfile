@@ -9,6 +9,7 @@ target 'SwiftPractice' do
 	pod ‘C4’
 	pod 'ChameleonFramework'
 	pod 'lottie-ios'
-    pod 'FSCalendar'
+	pod 'FSCalendar'
+	pod 'ScrollableGraphView'
 
 end
