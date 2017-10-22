@@ -11,5 +11,6 @@ target 'SwiftPractice' do
 	pod 'lottie-ios'
 	pod 'FSCalendar'
 	pod 'ScrollableGraphView'
+    pod 'Charts'
 
 end

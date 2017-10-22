@@ -21,8 +21,6 @@ cocoaControlsから見る
 
 
 - [alexaubry/BulletinBoard: Generate and Display Bottom Card Interfaces on iOS](https://github.com/alexaubry/BulletinBoard)
-
-- [danielgindi/Charts: Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart.](https://github.com/danielgindi/Charts)
 - [CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout: UICollectionView replacement of UITableView. Do even more like Parallax Header, Sticky Section Header. Made for iOS 7.](https://github.com/CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout)
 - [IvanVorobei/RequestPermission: simple permission request with beautiful UI](https://github.com/IvanVorobei/RequestPermission)
 - [hyperoslo/ImagePicker: Reinventing the way ImagePicker works.](https://github.com/hyperoslo/ImagePicker)

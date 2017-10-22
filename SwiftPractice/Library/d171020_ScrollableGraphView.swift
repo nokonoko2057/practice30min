@@ -29,7 +29,7 @@ class d171020_ScrollableGraphView: UIViewController {
         let graphFrame = CGRect(x: 0.0, y: 0.0, width: self.view.frame.width, height: self.view.frame.height)
         frame = graphFrame
         
-        let graphView = makeDotGraph()
+        let graphView = makeSmoothDark()
         self.view.addSubview(graphView)
     }
     

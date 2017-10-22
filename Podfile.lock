@@ -3,6 +3,9 @@ PODS:
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
+  - Charts (3.0.2):
+    - Charts/Core (= 3.0.2)
+  - Charts/Core (3.0.2)
   - FSCalendar (2.7.9)
   - lottie-ios (1.5.2)
   - ScrollableGraphView (4.0.4)
@@ -10,6 +13,7 @@ PODS:
 DEPENDENCIES:
   - C4
   - ChameleonFramework
+  - Charts
   - FSCalendar
   - lottie-ios
   - ScrollableGraphView
@@ -17,10 +21,11 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   C4: 50c631f37096fd84498b462dce124552ad958d88
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
   FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
   lottie-ios: 255a0e95973a5c4424e809d7a5c19f7384c73e84
   ScrollableGraphView: 072ea302f4ca27779692656a49d51fe537b2b1e7
 
-PODFILE CHECKSUM: 55cef9166cae6d5f9fea18a94e26d8cdeee07bed
+PODFILE CHECKSUM: f677f67fa29199bed3fefeb94e51d38833115f43
 
 COCOAPODS: 1.2.1
