@@ -59,6 +59,7 @@ class d171020_ScrollableGraphView: UIViewController {
         linePlot.lineColor = UIColor.init(hexString: "#777777")//.colorFromHex(hexString: "#777777")
         linePlot.lineStyle = ScrollableGraphViewLineStyle.smooth
         
+        UIColor.init(hexString: <#T##String!#>)
         linePlot.shouldFill = true
         linePlot.fillType = ScrollableGraphViewFillType.gradient
         linePlot.fillGradientType = ScrollableGraphViewGradientType.linear
@@ -198,6 +199,7 @@ extension d171020_ScrollableGraphView: ScrollableGraphViewDataSource {
     
     func numberOfPoints() -> Int {
         return linePlotData.count
+        
     }
 }
 
