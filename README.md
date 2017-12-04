@@ -12,14 +12,21 @@
 - [cocoapods使用環境でsynxすると動かなくなる - Qiita](https://qiita.com/roana0229/items/171e075123c8433b4ba9)
 
 
+### 参考コード系
+- [dkhamsing/open-source-ios-apps: Collaborative List of Open-Source iOS Apps](https://github.com/dkhamsing/open-source-ios-apps#3d-touch)
+- [soapyigu/Swift30Projects: 30 mini Swift Apps for self-study](https://github.com/soapyigu/Swift30Projects)
+
 ### 後で見る
 - [iOSライブラリをまとめてるサイトのまとめ - Qiita](https://qiita.com/homyu/items/e36faf42e64577f76692)
+
+
+
 
 cocoaControlsから見る
 
 
 
-
+- [Juanpe/SkeletonView: An elegant way to show users that something is happening and also prepare them to which contents he is waiting](https://github.com/Juanpe/SkeletonView)
 - [alexaubry/BulletinBoard: Generate and Display Bottom Card Interfaces on iOS](https://github.com/alexaubry/BulletinBoard)
 - [CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout: UICollectionView replacement of UITableView. Do even more like Parallax Header, Sticky Section Header. Made for iOS 7.](https://github.com/CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout)
 - [IvanVorobei/RequestPermission: simple permission request with beautiful UI](https://github.com/IvanVorobei/RequestPermission)
@@ -32,7 +39,3 @@ cocoaControlsから見る
 - [mamaral/Onboard: An iOS framework to easily create a beautiful and engaging onboarding experience with only a few lines of code.](https://github.com/mamaral/Onboard)
 - [lukapool/LKAWaveCircleProgressBar: 一款带有双波浪动画的圆形进度指示器](https://github.com/lukapool/LKAWaveCircleProgressBar)
 - [lkzhao/Hero: Elegant transition library for iOS & tvOS](https://github.com/lkzhao/Hero)
-
-
-
-
