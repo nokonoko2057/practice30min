@@ -19,13 +19,13 @@
 ### 後で見る
 - [iOSライブラリをまとめてるサイトのまとめ - Qiita](https://qiita.com/homyu/items/e36faf42e64577f76692)
 
-
+Parallax
+- [Swiftで便利なライブラリやUIパーツに工夫を凝らしてUIを彩るサンプル例（ライブラリ選定とベース作成） - Qiita](https://qiita.com/fumiyasac@github/items/96a588c4f7bfc901f729)
 
 
 cocoaControlsから見る
 
-
-
+- [Vinodh-G/ParallaxTableViewHeader: Parallax scrolling effect on UITableView header view when a tableView is scrolled](https://github.com/Vinodh-G/ParallaxTableViewHeader)
 - [Juanpe/SkeletonView: An elegant way to show users that something is happening and also prepare them to which contents he is waiting](https://github.com/Juanpe/SkeletonView)
 - [alexaubry/BulletinBoard: Generate and Display Bottom Card Interfaces on iOS](https://github.com/alexaubry/BulletinBoard)
 - [CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout: UICollectionView replacement of UITableView. Do even more like Parallax Header, Sticky Section Header. Made for iOS 7.](https://github.com/CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout)
